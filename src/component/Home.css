@@ -1,0 +1,163 @@
+
+.full-container{
+
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    width: 100%;
+
+}
+
+
+
+.first-container{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #ffffff;
+
+}
+
+
+.second-container{
+    border-left: rgb(230, 227, 227);
+    border-left-width:8px ;
+    border-left-style:solid;
+    
+    flex: 2;
+    background-color:#f2f2f2;
+    width: 100%;
+    height: 100vh;
+}
+
+.notice-list{
+    margin-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    background-color:#d5d4d4;
+    /* min-height: 40VH; */
+    margin-right: 4rem;
+    text-align: left;
+    
+    color: #767272;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+    
+   
+
+}
+
+.notice-list li{
+
+    margin-left: 1rem;
+    margin-top: 12px
+}
+
+.notice-heading{
+    margin-left: 5rem;
+    margin-top: 10rem;
+    text-align: left;
+    
+    
+}
+
+.notice-heading p{
+ font-size: rem;
+ font-weight: 600;
+ color:  #168dcf;
+}
+
+.notice-heading h1{
+    font-size: 25px;
+}
+
+
+.photo{
+    /* height: 20vh; */
+    margin: 30px;
+}
+
+.photo img{
+    height: 80vh;
+    width: 120vh;
+}
+
+.paragraph{
+    /* text-align: left; */
+    margin: 0 80px;
+    font-size: 20px;
+    margin-bottom: 1rem;
+   
+    /* background-color: #f2f2f2; */
+}
+
+
+
+@media (max-width:991px){
+    .full-container{
+        display: flex;
+
+    flex-direction: column;   
+     min-height: 100vh;
+        padding-bottom: 20px;
+    }
+    
+    .photo img{
+        height: 50vh;
+    }
+
+    .notice-heading{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        text-align: left;
+        
+        
+    }
+    
+
+}
+
+@media (max-width:791px){
+    .photo img{
+        height: 40vh;
+        width: 60vh;
+    }   
+
+}
+
+@media (max-width:511px){
+
+    .photo img{
+        height: 30vh;
+        width: 55vh;
+    }   
+
+}
+
+@media (max-width:470px){
+
+    .photo img{
+       
+        
+        height: 30vh;
+        width: 40vh;
+    }   
+
+}
+
+
+@media (max-width:1600px){
+
+    .full-container{
+        display: flex;
+
+        flex-direction: column;   
+
+        min-height: 100vh;
+        padding-bottom: 20px;
+    }
+
+    
+}

@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.bars{
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width:991px){
+
+    .bars{
+        display:contents;
+        flex-direction: row;
+        color: #ffff;
+        font-size: 40px; 
+        padding-top: 2rem;
+       position: fixed;
+       align-items: center;
+       text-align: center;
+
+      
+       
+    }
+
+
+    button{
+        margin: 3rem;
+    }
+
+
+
+    .bars-icon{
+        float: right;
+        margin-top:2rem ;
+        margin-left: 10rem;
+    }
+
+    .bar-icon{
+        
+        margin-top: 2rem;
+        font-size: 2rem ;
+    
+        right: 5px;
+        position: absolute;
+        align-items: baseline;
+        text-align: end;
+        
+    }
+
+   
+        .nav-content li{
+            display: none;
+            
+        }
+
+        .nav-content{
+            display: none;
+            flex: 1;
+        
+        }
+
+        
+
+        .nav-content-mobile{
+            height: 100vh;
+            background-color: #168dcf;
+            width: 100%;
+            position: absolute;
+            top:100px;
+            list-style: none;
+            font-size: 25px;
+            padding-top: 3rem;
+            z-index: 11;
+        }
+
+
+
+
+        .logo-part{
+            flex:100%;
+            align-items: center;
+            position: absolute;
+        }
+
+        .nav-content-mobile li:hover{
+            background:#025e8f ;
+            color: black;
+            border-radius: 10px;
+            
+           
+           
+           }
+
+           .nav-content-mobile li{
+            margin-top: 10px;
+            padding: 10px 0px;
+
+           }
+
+
+          
+           
+
+
+      
+   
+  
+
+    
+    
+
+    
+
+
+       
+
+}
+
+
+.nav-content{
+   
+    flex: 5;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    text-decoration: none;
+  
+    font-style: none;
+    
+
+
+}
+
+
+.logo-part{
+display: flex;
+flex-direction: row;
+flex:3;
+text-align: center;
+align-items: center;
+/* justify-content: center; */
+margin:30px ;
+text-decoration: none;
+
+
+}
+
+.logo-part img{
+    height: 4rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.logo-part p{
+    margin-left:20px ;
+    font-size: 25px;
+    color: aliceblue;
+   
+}
+
+.main-head-component{
+    display: flex;
+    flex-direction: row;
+    background-color: #168dcf;
+    width: 100%;
+    height: 100px;
+    /* position: fixed; */
+  
+    
+}
+
+
+
+
+.nav-content li{
+    margin: 18px;
+    position: relative;
+    
+    color: rgb(206, 241, 241);
+    font-size: 18px;
+    font-style: none;
+    font: 100;
+    font-weight: 200;
+    text-decoration: none;
+    
+    text-decoration-line: none;
+
+
+  
+}
+
+.nav-content NavLink{
+    color: #ffff;
+}
+
+.nav-link{
+    color: #ffff;
+    
+    text-decoration: none;
+}
+
+
+
+
+
+
+.nav-content li:hover{
+ color:rgb(249, 249, 249) ;
+ text-shadow: 0 14px 28px #ffff, 0 10px 10px #ffff;
+
+}
+
+.nav-content Link li{
+    font-style: none;
+    text-decoration: none;
+  
+}
+
+
+.signin {
+    font-style: none;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    margin-right: 80px;
+    font-size: 18px;
+
+
+}
+
+
+
+.sign{
+    background-color: aliceblue;
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: #168dcf;
+   
+
+}
+
+.shigninn{
+    text-decoration: none;
+
+}
+
+.logo-nagarpalika{
+    text-decoration: none;
+}
+
+
+.header-sschool{
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
